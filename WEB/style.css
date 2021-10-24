@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.banner{
+    width: 100%;
+    height: 340vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(photo.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+.navbar{
+    width: 75%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 250px;
+    cursor: pointer;
+    left: 50px;
+    
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px;
+    font-size: 30;
+    
+}
+.navbar ul li ::after{
+    content: '';
+    height: 3;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li :hover::after{
+    width: 100%;
+}
+.row{
+    display: flex;
+    height: 30%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: #fff;
+    font-size: 200px;
+    text-shadow: 0 0 3px #999;
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 3px #999;
+    font-size: 30px;
+}
+p{
+    color: #ffff;
+    font-size: 25px;
+    line-height: 15px;
+
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 25px 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 30px 15px;
+    transition: transform 0.5s;
+    background-position: center;
+    background-size: cover;
+}
+.card1{
+    background-image: url(bed.jpg);
+}
+.card2{
+    background-image: url(kitchen.jpg);
+}
+.card3{
+    background-image: url(bathroom.jpg);
+}
+.card4{
+background-image: url(living.jpg);
+}
+.card:hover{
+transform: translateY(-10px) ;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 15px;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+
+}
+button{
+    width: 200px;
+    color: #000;
+    font-size: 20px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+
+h2 {
+    margin: 30px 0;
+    color:white;
+    font-size: 150px;
+    text-align: center;
+
+    
+} 
+

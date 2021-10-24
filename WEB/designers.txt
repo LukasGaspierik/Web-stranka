@@ -1,0 +1,38 @@
+.person{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 25px 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 30px 15px;
+    transition: transform 0.5s;
+    background-position: center;
+    background-size: cover;
+}
+.person{
+    background-image: url(person1.jpg);
+}
+.person1{
+    background-image: url(person2.jpg);
+}
+.person2{
+    background-image: url(person.png);
+}
+
+
+web.html
+
+<h2>DESIGNERS</h2>
+                    <div class="designers">
+                        <div class="person person1">
+                            <h4>ROBERT</h4>
+                        </div>
+                        <div class="person persom2">
+                            <h4>EMMA</h4>
+                        </div>
+                        <div class="person">
+                            <h4>VILIAM</h4>
+                        </div>
+                </div>
